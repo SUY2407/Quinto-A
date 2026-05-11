@@ -1,12 +1,13 @@
 
 package main;
-import GUI.Login;
+
+import GUI.Principal;
 
 public class Main {
 
     public static void main(String[] args) {
-        Login principal = new Login();
-        principal.setVisible(true);
+      Principal inicio = new Principal();
+      inicio.setVisible(true);
     }
     
 }
